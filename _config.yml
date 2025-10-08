@@ -2,6 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# Remote theme for GitHub Pages
+remote_theme: alshedivat/al-folio
+
 title: Pramiti Sarker # the website title (if blank, full name will be used instead)
 first_name: Pramiti
 middle_name: ''
