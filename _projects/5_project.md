@@ -1,80 +1,176 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Multidisciplinary Optimization Toolkit
+description: Advanced optimization algorithms for injection molding and manufacturing under uncertainty
+img: assets/img/publication_preview/neck_flexion_systematic_review.svg
+importance: 5
+category: biomechanics-tools
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Engineering Optimization Under Real-World Uncertainty
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **Multidisciplinary Optimization Toolkit** bridges advanced mathematical optimization with practical engineering challenges. Originally developed for injection molding system design, this toolkit has evolved to address optimization problems across multiple engineering domains.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### The Uncertainty Challenge
+
+Traditional optimization approaches assume perfect knowledge of system parameters, but real-world engineering operates under uncertainty:
+
+- **Material properties** vary between batches
+- **Environmental conditions** change unpredictably  
+- **Manufacturing tolerances** introduce variability
+- **Performance requirements** evolve over time
+- **Economic constraints** shift with market conditions
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="optimization-feature">
+            <h4>🧮 Core Algorithms</h4>
+            <ul>
+                <li>Multi-objective optimization (MOO)</li>
+                <li>Robust design optimization (RDO)</li>
+                <li>Reliability-based design optimization (RBDO)</li>
+                <li>Uncertainty quantification methods</li>
+                <li>Pareto frontier analysis</li>
+            </ul>
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="optimization-feature">
+            <h4>⚙️ Application Domains</h4>
+            <ul>
+                <li>Manufacturing process optimization</li>
+                <li>Work-rest scheduling</li>
+                <li>Ergonomic intervention design</li>
+                <li>Resource allocation problems</li>
+                <li>Supply chain optimization</li>
+            </ul>
+        </div>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Foundational Research: Injection Molding Optimization
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The toolkit originated from research on injection molding system design under uncertainty, addressing:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Multi-Cavity Mold Design**: Optimizing cavity layout, cooling channels, and material flow for cost-effective mass production
 
-{% raw %}
+**Process Parameter Optimization**: Balancing cycle time, part quality, and energy consumption under material variability
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+**Robust Design Principles**: Creating solutions that maintain performance despite inevitable manufacturing variations
+
+**Economic Integration**: Incorporating lifecycle costs, maintenance requirements, and production flexibility
+
+### Mathematical Framework
+
+The optimization problems are formulated as:
+
+```
+Minimize: f₁(x), f₂(x), ..., fₙ(x)  [Multiple objectives]
+Subject to: g(x) ≤ 0               [Deterministic constraints]
+           P[h(x,ξ) ≤ 0] ≥ β       [Probabilistic constraints]
+Where:     x ∈ design variables
+           ξ ∈ uncertain parameters
+           β ∈ reliability levels
 ```
 
-{% endraw %}
+### Key Innovations
+
+**Adaptive Sampling**: Intelligent selection of design points to minimize computational cost while maintaining solution quality
+
+**Uncertainty Propagation**: Advanced methods for tracking how input uncertainties affect output performance
+
+**Multi-Criteria Decision Making**: Tools for selecting optimal solutions from Pareto-optimal sets based on decision-maker preferences
+
+**Sensitivity Analysis**: Identifying which uncertain parameters most significantly impact design performance
+
+### Cross-Domain Applications
+
+**Work-Rest Scheduling**: Applying inventory control theory and multi-objective optimization to human performance management
+
+**Ergonomic Design**: Optimizing workplace layouts and interventions considering individual variability and multiple performance criteria
+
+**Resource Allocation**: Distributing limited resources across competing objectives under uncertain demand
+
+**Supply Chain Management**: Balancing cost, quality, and delivery reliability in complex distribution networks
+
+### Software Architecture
+
+```
+OptimizationToolkit/
+├── algorithms/
+│   ├── multi_objective/     # NSGA-II, MOPSO, epsilon-constraint
+│   ├── robust_design/       # Taguchi, Monte Carlo, metamodeling
+│   ├── reliability_based/   # FORM, SORM, simulation methods
+│   └── uncertainty/         # UQ methods, sensitivity analysis
+├── applications/
+│   ├── manufacturing/       # Injection molding, process optimization
+│   ├── ergonomics/         # Work-rest, intervention design
+│   └── general/            # Generic optimization frameworks
+├── visualization/          # Pareto plots, sensitivity charts
+└── validation/            # Test problems, benchmarking
+```
+
+### Validation and Testing
+
+The toolkit has been validated through:
+
+**Manufacturing Case Studies**: Real injection molding optimization projects with industry partners
+
+**Academic Benchmarks**: Standard test problems from the optimization literature
+
+**Cross-Domain Applications**: Work-rest scheduling, ergonomic intervention design
+
+**Comparative Analysis**: Performance comparison with commercial optimization software
+
+### Research Contributions
+
+**Methodological Advances**:
+- Novel approaches to handling mixed aleatory/epistemic uncertainty
+- Efficient algorithms for high-dimensional multi-objective problems
+- Integration of machine learning with traditional optimization methods
+
+**Application Insights**:
+- Optimal design strategies for multi-cavity injection molds
+- Trade-offs between robustness and performance in manufacturing
+- Cross-disciplinary applications of operations research methods
+
+### Future Enhancements
+
+**Machine Learning Integration**: Using AI to accelerate optimization and learn from historical solutions
+
+**Real-Time Optimization**: Adaptive algorithms that update solutions as new data becomes available
+
+**Cloud Computing**: Distributed optimization for computationally intensive problems
+
+**Industry 4.0 Integration**: Connecting optimization tools with smart manufacturing systems
+
+### Open Source Initiative
+
+The toolkit is being prepared for open-source release to:
+- Enable reproducible optimization research
+- Facilitate collaboration across engineering disciplines  
+- Provide educational resources for optimization methods
+- Support small and medium enterprises with advanced optimization capabilities
+
+### Educational Impact
+
+The toolkit serves as a teaching platform for:
+- Graduate courses in optimization theory and practice
+- Professional development workshops for practicing engineers
+- Research training in uncertainty quantification methods
+- Interdisciplinary collaboration in optimization applications
+
+### Industry Partnerships
+
+Collaborations with industry partners have enabled:
+- Real-world validation of optimization methods
+- Technology transfer to practical applications
+- Feedback for improving algorithm robustness and usability
+- Case studies demonstrating optimization value in practice
+
+This toolkit represents the evolution from single-domain optimization tools to comprehensive frameworks that address uncertainty, multiple objectives, and cross-disciplinary applications—essential capabilities for modern engineering challenges.
+
+---
+
+*Developed through M.S. thesis research on injection molding optimization at Bangladesh University of Engineering and Technology (2017) and subsequent applications to work-rest scheduling and ergonomic optimization problems*

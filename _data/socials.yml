@@ -13,13 +13,13 @@
 email: ps0035@mail.wvu.edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
+github_username: psarker06 # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
-# linkedin_username: pramiti-sarker # LinkedIn username (optional if using full URL below)
-linkedin_url: https://www.linkedin.com/in/pramiti-sarker/
-research_gate_profile: https://www.researchgate.net/profile/Pramiti-Sarker
+linkedin_username: pramiti-sarker # LinkedIn username (optional if using full URL below)
+# linkedin_url: https://www.linkedin.com/in/pramiti-sarker/
+research_gate_profile: Pramiti-Sarker
 scholar_userid: AmtF1MwAAAAJ # updated Google Scholar ID from CV
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
@@ -27,7 +27,6 @@ scholar_userid: AmtF1MwAAAAJ # updated Google Scholar ID from CV
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -53,7 +52,7 @@ rss_icon: true # comment this line to hide the RSS icon
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# custom_social: # can be any name here other than the ones already defined above
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/

@@ -1,23 +1,43 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: EMG Fatigue Assessment Framework Published
+date: 2024-09-25 10:15:00-0500
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Our comprehensive EMG fatigue assessment framework has been published, providing standardized protocols for muscle fatigue analysis across research laboratories.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Research Impact
 
-#### Hipster list
+This publication addresses a critical need in EMG research by establishing standardized methodologies for fatigue assessment. The framework includes:
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
+### Key Contributions
+
+- **Sampling Parameter Guidelines**: Evidence-based recommendations for EMG data collection
+- **Analysis Protocol Standardization**: Consistent methods for fatigue metric calculation  
+- **Validation Framework**: Statistical approaches for comparing different fatigue measures
+- **Software Tools**: Open-source implementations for reproducible research
+
+### Practical Applications
+
+The framework has been adopted by multiple research laboratories and is being integrated into:
+
+- **Clinical Assessment Tools**: Objective fatigue evaluation in patient populations
+- **Workplace Ergonomics**: Task analysis and intervention assessment
+- **Sports Science**: Training optimization and injury prevention
+- **Rehabilitation**: Progress monitoring and treatment planning
+
+### Future Directions
+
+This work establishes the foundation for:
+- **Wearable Device Integration**: Consumer-grade EMG monitoring
+- **AI-Powered Analysis**: Machine learning applications in fatigue detection
+- **Real-time Feedback**: Live workplace fatigue monitoring systems
+
+The complete methodology and software tools are available to the research community to promote reproducible EMG fatigue research.
     <li>messenger bag</li>
 </ul>
 

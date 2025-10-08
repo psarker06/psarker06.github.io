@@ -19,7 +19,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 3
 
 latest_posts:
   enabled: true
@@ -27,26 +27,45 @@ latest_posts:
   limit: 3
 ---
 
-Dr. Pramiti Sarker, Ph.D., AEP, is an Assistant Professor in the Department of Industrial and Management Systems Engineering at West Virginia University. Her research centers on occupational ergonomics—optimizing human performance while mitigating physical and cognitive workload to reduce the risk of neuromusculoskeletal disorders. She analyzes task demands, identifies sources of workload strain, and designs, evaluates, and implements ergonomic interventions that enhance worker well-being, job quality, and sustainable careers.
+Welcome! I'm **Dr. Pramiti Sarker**, an Assistant Professor passionate about creating healthier, more productive workplaces through the science of ergonomics. 
 
-Prior appointments include Visiting Assistant Professor at the Edwardson School of Industrial Engineering (Purdue University), Lecturer at the Bangladesh University of Engineering and Technology (BUET), and an internship at the Mayo Clinic.
+## 🎯 What I Do
 
-## Research Interests
-- Occupational & cognitive ergonomics
-- Workload assessment (physical & cognitive)
-- Human performance optimization
-- Biomechanics & injury risk mitigation
-- Evidence-based ergonomic intervention design
+My research focuses on **occupational ergonomics**—the art and science of optimizing human performance while protecting workers from injury. I specialize in:
 
-## Education
-- Ph.D., Industrial Engineering, Iowa State University (IMSE), Ames, Iowa, USA, 2022
-- M.S., Industrial Engineering, Bangladesh University of Engineering and Technology (BUET), 2017
-- B.S., Industrial Engineering, Bangladesh University of Engineering and Technology (BUET), 2015
+- **🧠 Cognitive & Physical Workload Assessment**: Understanding how work demands affect both mind and body
+- **⚡ Human Performance Optimization**: Enhancing productivity while maintaining well-being
+- **🛡️ Injury Prevention**: Reducing neuromusculoskeletal disorder risks through evidence-based interventions
+- **🔧 Ergonomic Solutions**: Designing practical workplace improvements that make a real difference
 
-## Highlights
-- Developed multi-modal workload assessment methods to inform ergonomic redesigns.
-- Cross-disciplinary collaboration spanning academia, clinical research, and international institutions.
-- Strong focus on translating ergonomic science into sustainable workplace practice.
+> *"Good ergonomics isn't just about preventing injury—it's about creating sustainable careers where people can thrive."*
 
-## Get in Touch
-Feel free to reach out regarding collaboration, student mentorship, or applied ergonomics projects. See the social icons below for professional profiles.
+## 🌟 Research Impact
+
+I develop **multi-modal assessment methods** that capture the full picture of workplace demands, then translate these insights into actionable ergonomic solutions. My work bridges the gap between laboratory research and real-world implementation, ensuring that scientific advances actually improve people's working lives.
+
+## 🎓 Academic Journey
+
+| Degree | Institution | Year |
+|--------|-------------|------|
+| **Ph.D.** Industrial Engineering | Iowa State University (IMSE) | 2022 |
+| **M.S.** Industrial Engineering | Bangladesh University of Engineering & Technology (BUET) | 2017 |
+| **B.S.** Industrial Engineering | Bangladesh University of Engineering & Technology (BUET) | 2015 |
+
+## 💼 Professional Experience
+
+**Current**: Assistant Professor, West Virginia University  
+**Previous Roles**:
+- 🎓 Visiting Assistant Professor, Purdue University (Edwardson School of Industrial Engineering)  
+- 📚 Lecturer, Bangladesh University of Engineering and Technology (BUET)  
+- 🏥 Research Intern, Mayo Clinic  
+
+## 🤝 Let's Connect!
+
+I'm always excited to discuss:
+- **Research collaborations** in ergonomics and human factors
+- **Student mentorship** opportunities (undergraduate and graduate)
+- **Industry partnerships** for applied ergonomics projects
+- **Consulting** on workplace optimization challenges
+
+*Ready to make workplaces work better for everyone? Let's talk!*

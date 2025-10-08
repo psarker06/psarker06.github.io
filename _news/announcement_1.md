@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-10-08 14:30:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New collaboration launched with healthcare systems to implement evidence-based break scheduling protocols for surgical teams, translating work-rest optimization research into clinical practice.

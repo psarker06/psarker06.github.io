@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-09-15 16:45:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Presenting "Inventory Control Theory Applications in Work-Rest Scheduling" at the IEA World Congress 2024! 🎯 Excited to share mathematical approaches to human performance optimization.

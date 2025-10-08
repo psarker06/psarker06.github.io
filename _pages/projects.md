@@ -9,15 +9,12 @@ display_categories: [workload-assessment, intervention-design, biomechanics-tool
 horizontal: false
 ---
 
-This page highlights current and past efforts across three themes:
+My research highlights current and past efforts across three themes:
 
 1. Workload Assessment – multi-modal characterization of physical & cognitive demands (EMG, posture, subjective, temporal exposure modeling).
 2. Intervention Design – iterative development and evaluation of ergonomic solutions, workflow redesign, and work-rest scheduling strategies.
 3. Biomechanics Tools – analytical or software utilities (signal processing scripts, posture analysis helpers, optimization prototypes) that support empirical studies.
 
-Project cards are drawn from markdown files in the `_projects` collection. Each file exposes metadata like `category`, `importance` (for ordering), optional `img`, and `related_publications`.
-
-Coming soon: curated “Spotlight” section and links to datasets / reproducible analysis notebooks.
 
 <!-- pages/projects.md -->
 <div class="projects">
