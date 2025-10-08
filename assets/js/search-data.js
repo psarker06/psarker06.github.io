@@ -207,16 +207,16 @@ ninja.data = [{
           description: "Advanced signal processing toolkit for electromyography-based fatigue assessment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project_old/";
             },},{id: "projects-neck-flexion-assessment-platform",
           title: 'Neck Flexion Assessment Platform',
           description: "Multi-modal workload assessment system for occupational neck strain evaluation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-ppe-performance-impact-analyzer",
+          title: 'PPE Performance Impact Analyzer',
+          description: "Comprehensive assessment of protective equipment effects on human performance and fatigue",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-multidisciplinary-optimization-toolkit",
           title: 'Multidisciplinary Optimization Toolkit',
           description: "Advanced optimization algorithms for injection molding and manufacturing under uncertainty",
