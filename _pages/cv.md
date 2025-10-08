@@ -1,11 +1,13 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: Curriculum Vitae
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: CV-Pramiti-Sarker.pdf # place PDF at assets/files/CV-Pramiti-Sarker.pdf or adjust path
+description: Curriculum Vitae of Dr. Pramiti Sarker – Assistant Professor, Industrial & Management Systems Engineering, West Virginia University.
 toc:
   sidebar: left
 ---
+
+Below is a structured HTML-rendered version of my CV. A downloadable PDF version is available via the button above.

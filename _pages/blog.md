@@ -1,7 +1,8 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
+description: Reflections on ergonomics research, human performance, and academic practice
 nav: true
 nav_order: 1
 pagination:
@@ -18,14 +19,19 @@ pagination:
 
 <div class="post">
 
+<div class="mb-4">
+  <p>Welcome to my blog space. Here I write concise, practitioner-oriented notes on occupational & cognitive ergonomics, multi-modal workload assessment, applied biomechanics/EMG methods, intervention design, and translating research into sustainable workplace practice. Posts may also cover mentoring, inclusive lab culture, and academic workflow tips.</p>
+  <p class="text-muted" style="font-size:0.9rem;">Reading time estimates assume ~180 words per minute. Tag pages and yearly archives help you navigate thematic threads over time.</p>
+</div>
+
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+  <h1>{{ site.blog_name | default: "Research & Ergonomics Notes" }}</h1>
+  <h2>{{ site.blog_description | default: "Applied insights on workload, performance, and human-centered design" }}</h2>
   </div>
   {% endif %}
 

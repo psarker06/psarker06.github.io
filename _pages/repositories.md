@@ -1,15 +1,30 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Repositories
+description: Selected code, data utilities, and tools supporting ergonomics & human performance research
 nav: true
 nav_order: 4
 ---
 
+This page pulls live metadata from GitHub (stars, descriptions, language) for configured users and individual repositories. To customize:
+
+1. Edit `_data/repositories.yml`.
+2. Replace `github_users` with your GitHub username (and collaborators if desired).
+3. List any specific repositories (including private ones you want to showcase manually) under `github_repos`.
+4. (Optional) Enable trophies in `_config.yml` if you want a contributions summary badge section.
+
+Research tooling here typically includes:
+- Signal processing / EMG analysis scripts.
+- Workload modeling or optimization prototypes.
+- Data preprocessing utilities for posture or sensor fusion.
+- Reproducible study artifact repositories (when publishable).
+
+---
+
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## GitHub Users
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -37,7 +52,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+## Pinned Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
