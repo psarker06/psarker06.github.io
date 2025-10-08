@@ -13,7 +13,7 @@ profile:
     <p>West Virginia University</p>
     <p><a href="mailto:ps0035@mail.wvu.edu">ps0035@mail.wvu.edu</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -22,7 +22,7 @@ announcements:
   limit: 3
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---
