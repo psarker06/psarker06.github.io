@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Peer-reviewed articles, conference proceedings, theses, and other scholarly outputs.",
+          description: "Representative academic portfolio in occupational ergonomics, biomechanics, and human factors engineering.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -29,13 +29,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Selected code, data utilities, and tools supporting ergonomics &amp; human performance research",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
           },
         },{id: "nav-curriculum-vitae",
           title: "Curriculum Vitae",
@@ -52,15 +45,15 @@ ninja.data = [{
             window.location.href = "/news/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "Courses, workshops, and educational activities in ergonomics, human factors, and optimization engineering.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "People",
-          description: "Faculty and collaborators",
+        },{id: "nav-profile",
+          title: "Profile",
+          description: "Research focus and professional background",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -86,367 +79,92 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-the-hidden-cost-of-looking-down-what-30-of-neck-flexion-really-means-for-workers",
         
-          title: "a post with plotly.js",
+          title: "The Hidden Cost of Looking Down: What 30° of Neck Flexion Really Means...",
         
-        description: "this is what included plotly.js code could look like",
+        description: "Exploring the critical threshold for neck flexion in occupational settings and why your work posture matters more than you think.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/plotly/";
+            window.location.href = "/blog/2024/neck-flexion-workplace-safety/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-emg-insights-why-your-muscles-tell-a-different-story-than-you-think",
         
-          title: "a post with image galleries",
+          title: "EMG Insights: Why Your Muscles Tell a Different Story Than You Think",
         
-        description: "this is what included image galleries could look like",
+        description: "Diving into electromyography research and what muscle fatigue patterns reveal about workplace design and break strategies.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2024/emg-muscle-fatigue-insights/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+      },{id: "post-when-inventory-theory-meets-ergonomics-a-novel-approach-to-work-rest-scheduling",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "When Inventory Theory Meets Ergonomics: A Novel Approach to Work-Rest Scheduling",
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "Exploring how mathematical models from supply chain management can revolutionize workplace fatigue management and optimize human performance.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.location.href = "/blog/2024/inventory-theory-meets-ergonomics/";
           
         },
-      },{id: "post-a-post-with-tabs",
+      },{id: "post-the-hidden-science-of-break-scheduling-why-timing-matters-more-than-duration",
         
-          title: "a post with tabs",
+          title: "The Hidden Science of Break Scheduling: Why Timing Matters More Than Duration",
         
-        description: "this is what included tabs in a post could look like",
+        description: "Uncovering the neuroscience and biomechanics behind effective break scheduling strategies for reducing neck and shoulder fatigue in the modern workplace.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/tabs/";
+            window.location.href = "/blog/2024/hidden-science-break-scheduling/";
           
         },
-      },{id: "post-a-post-with-typograms",
+      },{id: "post-from-iowa-to-wvu-lessons-learned-in-academic-transitions",
         
-          title: "a post with typograms",
+          title: "From Iowa to WVU: Lessons Learned in Academic Transitions",
         
-        description: "this is what included typograms code could look like",
+        description: "Reflections on moving between institutions, building research continuity, and creating inclusive lab cultures in industrial engineering.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/typograms/";
+            window.location.href = "/blog/2024/academic-transitions-lessons/";
           
         },
-      },{id: "post-a-post-that-can-be-cited",
+      },{id: "post-from-bangladesh-to-iowa-bridging-engineering-optimization-across-continents",
         
-          title: "a post that can be cited",
+          title: "From Bangladesh to Iowa: Bridging Engineering Optimization Across Continents",
         
-        description: "this is what a post that can be cited looks like",
+        description: "A personal journey through multidisciplinary design optimization, from injection molding in Dhaka to work-rest scheduling in Ames, and the universal principles that connect diverse engineering challenges.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/post-citation/";
+            window.location.href = "/blog/2024/bangladesh-to-iowa-optimization-journey/";
           
         },
-      },{id: "post-a-post-with-pseudo-code",
+      },{id: "post-the-emg-chronicles-decoding-the-language-of-muscle-fatigue",
         
-          title: "a post with pseudo code",
+          title: "The EMG Chronicles: Decoding the Language of Muscle Fatigue",
         
-        description: "this is what included pseudo code could look like",
+        description: "Diving deep into electromyography (EMG) research methods, from signal processing challenges to breakthrough insights in fatigue assessment and the future of wearable monitoring technology.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/pseudocode/";
+            window.location.href = "/blog/2024/emg-chronicles-muscle-fatigue/";
           
         },
-      },{id: "post-a-post-with-code-diff",
+      },{id: "post-the-weight-of-protection-how-ppe-affects-human-performance",
         
-          title: "a post with code diff",
+          title: "The Weight of Protection: How PPE Affects Human Performance",
         
-        description: "this is how you can display code diffs",
+        description: "Investigating the hidden costs of personal protective equipment on muscle fatigue and performance, with implications for healthcare workers, first responders, and industrial workers.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2024/weight-of-protection-ppe-performance/";
           
         },
       },{id: "books-the-godfather",
@@ -454,40 +172,54 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-work-rest-scheduling-methodology-adopted-by-three-major-manufacturing-companies-proud-to-see-inventory-control-theory-applications-translating-to-real-world-impact",
+          title: 'Work-rest scheduling methodology adopted by three major manufacturing companies! Proud to see inventory...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-ai-enhanced-ergonomic-assessment-initiative-launched",
+          title: 'AI-Enhanced Ergonomic Assessment Initiative Launched',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "news-new-systematic-review-on-neck-flexion-and-workplace-ergonomics-published-in-ergonomics-journal-establishing-evidence-based-angular-thresholds-for-occupational-risk-assessment",
+          title: 'New systematic review on neck flexion and workplace ergonomics published in Ergonomics journal,...',
+          description: "",
+          section: "News",},{id: "news-presenting-inventory-control-theory-applications-in-work-rest-scheduling-at-the-iea-world-congress-2024-excited-to-share-mathematical-approaches-to-human-performance-optimization",
+          title: 'Presenting “Inventory Control Theory Applications in Work-Rest Scheduling” at the IEA World Congress...',
+          description: "",
+          section: "News",},{id: "news-emg-fatigue-assessment-framework-published",
+          title: 'EMG Fatigue Assessment Framework Published',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-grant-awarded-for-multi-year-ppe-performance-optimization-study-research-will-focus-on-reducing-protective-equipment-burden-while-maintaining-safety-standards-in-healthcare-settings",
+          title: 'Grant awarded for multi-year PPE performance optimization study! Research will focus on reducing...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-new-collaboration-launched-with-healthcare-systems-to-implement-evidence-based-break-scheduling-protocols-for-surgical-teams-translating-work-rest-optimization-research-into-clinical-practice",
+          title: 'New collaboration launched with healthcare systems to implement evidence-based break scheduling protocols for...',
+          description: "",
+          section: "News",},{id: "projects-workrest-optimizer",
+          title: 'WorkRest Optimizer',
+          description: "Mathematical modeling of work-rest scheduling using inventory control theory",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-emg-fatigue-analyzer",
+          title: 'EMG Fatigue Analyzer',
+          description: "Advanced signal processing toolkit for electromyography-based fatigue assessment",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_project_old/";
+            },},{id: "projects-neck-flexion-assessment-platform",
+          title: 'Neck Flexion Assessment Platform',
+          description: "Multi-modal workload assessment system for occupational neck strain evaluation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-multidisciplinary-optimization-toolkit",
+          title: 'Multidisciplinary Optimization Toolkit',
+          description: "Advanced optimization algorithms for injection molding and manufacturing under uncertainty",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
@@ -518,18 +250,25 @@ ninja.data = [{
           window.open("mailto:%70%73%30%30%33%35@%6D%61%69%6C.%77%76%75.%65%64%75", "_blank");
         },
       },{
-        id: 'social-linkedin_url',
-        title: 'Linkedin_url',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://github.com/psarker06", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/pramiti-sarker", "_blank");
         },
       },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Pramiti-Sarker/", "_blank");
+          window.open("https://www.researchgate.net/profile/Pramiti-Sarker/", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -544,13 +283,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
