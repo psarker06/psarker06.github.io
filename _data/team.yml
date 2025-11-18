@@ -1,0 +1,45 @@
+# Team members data file
+# Add your team members here
+
+director:
+  - name: Pramiti Sarker, Ph.D.
+    role: Assistant Professor
+    title: Director of Ergonomics Lab
+    department: Department of Industrial & Management Systems Engineering
+    university: West Virginia University
+    image: profile.jpg
+    email: ps0035@mail.wvu.edu
+    website: https://psarker06.github.io
+    bio: >
+      Dr. Pramiti Sarker is an Assistant Professor in the Department of Industrial and Management Systems Engineering 
+      at West Virginia University. Her research focuses on occupational ergonomics—maximizing human performance while 
+      minimizing physical and cognitive workload to reduce the risk of neuromusculoskeletal disorders.
+
+# phd_students:
+#   - name: Student Name
+#     role: Ph.D. Student
+#     research: Research focus area
+#     image: student1.jpg
+#     email: student@mail.wvu.edu
+#     website: https://example.com
+#     linkedin: https://linkedin.com/in/username
+
+# masters_students:
+#   - name: Student Name
+#     role: Master's Student
+#     research: Research focus area
+#     image: student2.jpg
+#     email: student2@mail.wvu.edu
+
+# undergraduate_students:
+#   - name: Student Name
+#     role: Undergraduate Research Assistant
+#     research: Research focus area
+#     image: student3.jpg
+
+# alumni:
+#   - name: Alumni Name
+#     role: Ph.D. Graduate
+#     graduation_year: 2024
+#     current_position: Position at Company/University
+#     image: alumni1.jpg

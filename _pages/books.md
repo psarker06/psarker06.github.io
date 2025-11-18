@@ -1,9 +1,9 @@
 ---
 layout: book-shelf
-title: Bookshelf
+title: bookshelf
 permalink: /books/
 nav: true
-nav_order: 8
+nav_order: 9
 collection: books
 description: Reading log – ergonomics, human factors, biomechanics, productivity, and some fiction for balance
 ---

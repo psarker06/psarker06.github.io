@@ -1,33 +1,18 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: Peer-reviewed articles, conference proceedings, theses, and other scholarly outputs.
+title: publications
+description:
 nav: true
-nav_order: 2
+nav_order: 5
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
 
 <div class="publications">
 
-### Journal Articles
+<h3>Refereed Journal Papers</h3>
 {% bibliography --query @article %}
 
-### Conference Proceedings
+<h3>Conference Proceedings</h3>
 {% bibliography --query @inproceedings %}
 
-### Theses
-{% bibliography --query @phdthesis or @mastersthesis %}
-
-### Other / Preprints
-{% bibliography --query @misc %}
-
 </div>
-
-<hr/>
-<p><em>Auto-generated from BibTeX. Edit <code>_bibliography/papers.bib</code> to update this page.</em></p>

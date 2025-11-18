@@ -1,10 +1,10 @@
 ---
 layout: page
-title: News
+title: news
 permalink: /news/
 description: Lab and academic updates – publications, presentations, milestones, and opportunities
 nav: true
-nav_order: 6
+nav_order: 8
 ---
 
 Welcome to the news stream. Short inline notes highlight quick updates (acceptances, talks scheduled, resources released). Longer items appear as full posts for conference recaps, publication summaries, or reflective pieces.

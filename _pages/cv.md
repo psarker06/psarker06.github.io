@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: Curriculum Vitae
+title: curriculum vitae
 nav: true
-nav_order: 5
+nav_order: 7
 cv_pdf: CV-Pramiti-Sarker.pdf # place PDF at assets/files/CV-Pramiti-Sarker.pdf or adjust path
 description: Curriculum Vitae of Dr. Pramiti Sarker – Assistant Professor, Industrial & Management Systems Engineering, West Virginia University.
 toc:

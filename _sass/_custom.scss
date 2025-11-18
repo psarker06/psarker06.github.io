@@ -1,0 +1,714 @@
+/*******************************************************************************
+ * Custom styles for cleaner, professional UI
+ ******************************************************************************/
+
+// Professional font stack
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+}
+
+p, li, span, div {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+// Enhanced content sections
+.post {
+  article {
+    // Clean introduction paragraph styling
+    > p:first-of-type {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+      text-align: justify;
+      font-weight: 400;
+    }
+
+    // Section headers with better spacing
+    h4 {
+      margin-top: 2.5rem;
+      margin-bottom: 1.2rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: var(--global-text-color);
+      border-bottom: 2px solid var(--global-divider-color);
+      padding-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    // Horizontal rules for section breaks
+    hr {
+      margin: 2.5rem 0;
+      border: 0;
+      border-top: 1px solid var(--global-divider-color);
+      opacity: 0.3;
+    }
+
+    // Clean list styling
+    ul {
+      margin-bottom: 2rem;
+      
+      li {
+        margin-bottom: 0.6rem;
+        line-height: 1.7;
+        font-weight: 400;
+        
+        strong {
+          color: var(--global-theme-color);
+          font-weight: 600;
+        }
+      }
+    }
+
+    // Better spacing for paragraphs
+    p {
+      margin-bottom: 1.2rem;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+  }
+}
+
+// Profile section enhancements
+.profile {
+  margin-bottom: 2rem;
+  
+  .more-info {
+    background: var(--global-code-bg-color);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    
+    p {
+      margin-bottom: 0.4rem;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    a {
+      color: var(--global-theme-color);
+      font-weight: 500;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// News section styling
+.news {
+  background: var(--global-code-bg-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  table {
+    tr {
+      border-bottom: 1px solid var(--global-divider-color);
+      
+      &:last-child {
+        border-bottom: none;
+      }
+      
+      td {
+        padding: 0.8rem 0;
+      }
+    }
+  }
+}
+
+// Social icons section
+.social {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
+  
+  .contact-icons {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+    a {
+      margin-right: 1rem;
+      color: var(--global-text-color);
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .contact-note {
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    opacity: 0.8;
+  }
+}
+
+// Selected papers section
+.publications {
+  margin-top: 2rem;
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+  
+  .bibliography {
+    li {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+// Header improvements
+.post-header {
+  margin-bottom: 2rem;
+  
+  .post-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.03em;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  .desc {
+    font-size: 1.1rem;
+    color: var(--global-text-color);
+    opacity: 0.8;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+// Navbar font improvements
+.navbar {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  .navbar-brand {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
+// Team page styling
+.team-page {
+  .team-section {
+    margin-bottom: 4rem;
+    
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--global-divider-color);
+    }
+  }
+
+  // Director profile
+  .director-profile {
+    margin-bottom: 3rem;
+    
+    .director-image {
+      max-width: 250px;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .member-name {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      
+      a {
+        color: var(--global-theme-color);
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .member-role {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+      color: var(--global-text-color);
+    }
+    
+    .member-title {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      color: var(--global-text-color);
+      opacity: 0.9;
+    }
+    
+    .member-affiliation {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      
+      a {
+        color: var(--global-theme-color);
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .member-bio {
+      font-size: 1rem;
+      line-height: 1.7;
+      text-align: justify;
+      margin-top: 1rem;
+    }
+  }
+
+  // Team member cards
+  .team-member-card {
+    padding: 1rem;
+    background: var(--global-code-bg-color);
+    border-radius: 8px;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .member-image {
+      max-width: 120px;
+      width: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .member-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      
+      a {
+        color: var(--global-theme-color);
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .member-role {
+      font-size: 0.9rem;
+      color: var(--global-text-color);
+      opacity: 0.8;
+      margin-bottom: 0.5rem;
+    }
+    
+    .member-research {
+      font-size: 0.85rem;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+    }
+    
+    .member-links {
+      margin-top: 0.5rem;
+      
+      a {
+        margin-right: 0.75rem;
+        color: var(--global-text-color);
+        font-size: 1.1rem;
+        transition: color 0.2s ease;
+        
+        &:hover {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  // Alumni section
+  .alumni-list {
+    .alumni-item {
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+      
+      &:last-child {
+        border-bottom: none;
+      }
+      
+      .alumni-image {
+        max-width: 80px;
+        width: 100%;
+      }
+      
+      .alumni-name {
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+      
+      .alumni-info {
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+        color: var(--global-text-color);
+        opacity: 0.8;
+      }
+      
+      .alumni-position {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Join us section
+  .join-section {
+    .join-content {
+      background: var(--global-code-bg-color);
+      padding: 2rem;
+      border-radius: 8px;
+      
+      p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+      }
+      
+      .btn-primary {
+        background-color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+        padding: 0.75rem 2rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background-color: var(--global-hover-color);
+          border-color: var(--global-hover-color);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}
+
+// Research page styling
+.research-page {
+  .research-intro {
+    margin-bottom: 3rem;
+    
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: justify;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .research-projects {
+    margin-bottom: 4rem;
+  }
+
+  .research-project {
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    .project-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: var(--global-text-color);
+      text-align: center;
+      letter-spacing: -0.02em;
+    }
+    
+    .project-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .project-image {
+      width: 100%;
+      text-align: center;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+    }
+    
+    .project-description {
+      p {
+        font-size: 1rem;
+        line-height: 1.8;
+        text-align: justify;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .research-themes {
+    margin-bottom: 4rem;
+    
+    h2 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      text-align: center;
+      color: var(--global-text-color);
+    }
+    
+    .themes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .theme-card {
+      background: var(--global-code-bg-color);
+      padding: 2rem;
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+      }
+      
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--global-theme-color);
+      }
+      
+      p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .research-collaboration {
+    background: var(--global-code-bg-color);
+    padding: 2.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: var(--global-text-color);
+    }
+    
+    p {
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Publications page styling
+.publications {
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .bibliography {
+    list-style: none;
+    padding: 0;
+    counter-reset: pub-counter;
+    
+    li {
+      display: flex;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+      counter-increment: pub-counter;
+      
+      &::before {
+        content: "[J. " counter(pub-counter) "]";
+        font-weight: 600;
+        margin-right: 1rem;
+        min-width: 50px;
+        flex-shrink: 0;
+      }
+      
+      // Hide default preview, buttons, etc.
+      .preview {
+        display: none !important;
+      }
+      
+      .buttons {
+        display: none !important;
+      }
+      
+      .abbr {
+        display: none !important;
+      }
+      
+      // Format the citation content
+      .title {
+        font-weight: normal;
+      }
+      
+      .periodical, .booktitle {
+        font-style: italic;
+      }
+      
+      // Style links
+      a {
+        color: #0066cc;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  // Conference proceedings section
+  h3:nth-of-type(2) ~ .bibliography li::before {
+    content: "[C. " counter(pub-counter) "]";
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .post {
+    article {
+      > p:first-of-type {
+        font-size: 1rem;
+      }
+      
+      h4 {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+      }
+    }
+  }
+  
+  .post-header {
+    .post-title {
+      font-size: 2rem;
+    }
+    
+    .desc {
+      font-size: 1rem;
+    }
+  }
+  
+  .team-page {
+    .director-profile {
+      .director-image {
+        margin-bottom: 1.5rem;
+      }
+    }
+    
+    .team-member-card {
+      .member-image {
+        max-width: 100px;
+      }
+    }
+  }
+  
+  .research-page {
+    .research-intro p {
+      font-size: 1rem;
+    }
+    
+    .research-project {
+      .project-title {
+        font-size: 1.4rem;
+      }
+      
+      .project-description p {
+        font-size: 0.95rem;
+      }
+    }
+    
+    .research-themes {
+      .themes-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  
+  .publications-page {
+    .section-heading {
+      font-size: 1.3rem;
+    }
+    
+    .publications-list {
+      .bibliography li {
+        font-size: 0.95rem;
+      }
+    }
+  }
+}

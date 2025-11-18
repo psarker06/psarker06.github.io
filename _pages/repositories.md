@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: repositories
 description: Selected code, data utilities, and tools supporting ergonomics & human performance research
-nav: true
-nav_order: 4
+nav: false
+nav_order: 99
 ---
 
 This page pulls live metadata from GitHub (stars, descriptions, language) for configured users and individual repositories. To customize:

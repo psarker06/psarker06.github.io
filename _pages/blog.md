@@ -1,10 +1,10 @@
 ---
 layout: default
 permalink: /blog/
-title: Blog
+title: blog
 description: Reflections on ergonomics research, human performance, and academic practice
 nav: true
-nav_order: 1
+nav_order: 6
 pagination:
   enabled: true
   collection: posts
