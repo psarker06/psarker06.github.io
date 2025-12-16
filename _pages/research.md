@@ -21,51 +21,6 @@ nav_order: 4
 
   <!-- Featured Research Projects -->
   <section class="research-projects">
-    
-    <!-- Project 1: Mixed Reality Training Systems -->
-    <div class="research-project">
-      <h2 class="project-title">Mixed Reality Enabled Skill Training Systems</h2>
-      <div class="project-content">
-        <div class="project-image">
-          <img src="{{ '/assets/img/research/mr-training.jpg' | relative_url }}" alt="Mixed Reality Training System">
-        </div>
-        <div class="project-description">
-          <p>
-            Traditional apprenticeship programs do not provide sufficient feedback on postures and motions to 
-            inform trainees of their functional adaptation. In other fields (e.g., athletics), novices are encouraged 
-            to learn the intricacies of effective movement techniques through professional instruction. This study 
-            is to investigate how craft workers may learn and practice proper working techniques to intuitively 
-            understand how to move safely and efficiently. Analyzing motion data with AI can articulate experts' 
-            'physical wisdom'. With emerging technology, we might ask whether we can convey the 'physical wisdom' 
-            as functional learning to train apprentices. With a combination of an IMC system and mixed reality, 
-            users can observe and follow 3D computer graphic (CG) animations of experts' motion via stereoscopic 
-            displays generated from captured data. Furthermore, by combining the system with digital information 
-            from the actual workspaces, workers will be able to improve their efficiency and safety at complex 
-            and multi-scale worksites.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 2: Ergonomic Assessment Systems -->
-    <div class="research-project">
-      <h2 class="project-title">On-Site Ergonomic-Focused Assessment Systems</h2>
-      <div class="project-content">
-        <div class="project-image">
-          <img src="{{ '/assets/img/research/ergonomic-assessment.jpg' | relative_url }}" alt="Ergonomic Assessment System">
-        </div>
-        <div class="project-description">
-          <p>
-            Development of real-time, on-site ergonomic assessment systems that utilize wearable sensors and 
-            computer vision to monitor worker postures, movements, and workload. These systems provide immediate 
-            feedback to workers and supervisors, enabling proactive intervention to prevent work-related 
-            musculoskeletal disorders. Our approach integrates multiple data streams including IMU sensors, 
-            surface EMG, and video analysis to create comprehensive workload profiles that inform evidence-based 
-            ergonomic redesigns and intervention strategies.
-          </p>
-        </div>
-      </div>
-    </div>
 
     <!-- Project 3: Biomechanical Analysis -->
     <div class="research-project">

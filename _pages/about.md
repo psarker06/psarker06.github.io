@@ -14,6 +14,7 @@ profile:
     <p>Department of Industrial & Management Systems Engineering</p>
     <p>West Virginia University</p>
     <p><a href="mailto:ps0035@mail.wvu.edu">ps0035@mail.wvu.edu</a></p>
+    <p><a href="mailto:sarkerpramiti@gmail.com">sarkerpramiti@gmail.com</a></p>
 
 selected_papers: true
 social: true
@@ -36,11 +37,11 @@ latest_posts:
 #### **Research Focus**
 
 Dr. Sarker's research centers on interdisciplinary approaches in:
-- **Occupational & Cognitive Ergonomics**: Optimizing workplace design for enhanced human performance
+- **Occupational Ergonomics**: Injury risk identification and mitigation strategies  
 - **Workload Assessment**: Multi-modal evaluation of physical and cognitive demands
 - **Biomechanical Analysis**: Injury risk identification and mitigation strategies  
-- **Ergonomic Interventions**: Evidence-based solutions leveraging wearable sensors, AI, IoT, and advanced analytics
-- **Human-Centered Systems**: Integrating human factors into workplace automation and robotics
+- **Ergonomic Interventions**: Evidence-based solutions leveraging wearable sensors, gait and data analysis
+- **Human-Centered Systems**: Integrating human factors into workplace settings and optimizatiing design for enhanced human performance
 
 ---
 
