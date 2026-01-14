@@ -15,14 +15,28 @@ director:
       at West Virginia University. Her research focuses on occupational ergonomics—maximizing human performance while 
       minimizing physical and cognitive workload to reduce the risk of neuromusculoskeletal disorders.
 
-# phd_students:
-#   - name: Student Name
-#     role: Ph.D. Student
-#     research: Research focus area
-#     image: student1.jpg
-#     email: student@mail.wvu.edu
-#     website: https://example.com
-#     linkedin: https://linkedin.com/in/username
+phd_students:
+  - name: Atanu Sen Gupta
+    research: Human Factors and Ergonomics, Assistive Technology & Inclusive Design, Machine Learning Applications in Engineering
+    image: Atanu.jpg
+    email: student@mail.wvu.edu
+    website: https://example.com
+    linkedin: https://linkedin.com/in/username
+    bio: >
+      Atanu Sen Gupta is a PhD student at West Virginia University, 
+      where his research focuses on Human Factors and Ergonomics. 
+      He holds a Bachelor of Science in Mechanical Engineering from 
+      the Bangladesh University of Engineering and Technology (BUET).
+
+  - name: Anindya
+    research: Human Factors and Ergonomics, Assistive Technology & Inclusive Design, Machine Learning Applications in Engineering
+    image: Anindya.jpg
+    email: student@mail.wvu.edu
+    website: https://example.com
+    linkedin: https://linkedin.com/in/username
+    bio: >
+      Anindya  a PhD student at West Virginia University, 
+      where his research focuses on Human Factors and Ergonomics.
 
 # masters_students:
 #   - name: Student Name
