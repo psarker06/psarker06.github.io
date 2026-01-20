@@ -77,7 +77,31 @@ nav_order: 2
                   </h4>
                   <p class="member-role">{{ member.role }}</p>
                   {% if member.research %}
-                    <p class="member-research"><small>{{ member.research }}</small></p>
+                    <div class="member-research">
+                      <strong>Research Interests:</strong>
+                      <ul style="margin-bottom:0;">
+                        {% for line in member.research | split: '\n' %}
+                          {% if line contains '·' %}
+                            <li>{{ line | remove: '·' | strip }}</li>
+                          {% elsif line != '' %}
+                            <li>{{ line | strip }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
+                  {% if member.bio %}
+                    <p class="member-bio">{{ member.bio }}</p>
+                  {% endif %}
+                  {% if member.certifications_awards %}
+                    <div class="member-certifications-awards">
+                      <strong>Certifications & Awards:</strong>
+                      <ul style="margin-bottom:0;">
+                        {% for item in member.certifications_awards %}
+                          <li>{{ item }}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
                   {% endif %}
                   <div class="member-links">
                     {% if member.email %}
@@ -128,6 +152,9 @@ nav_order: 2
                   {% if member.research %}
                     <p class="member-research"><small>{{ member.research }}</small></p>
                   {% endif %}
+                  {% if member.bio %}
+                    <p class="member-bio">{{ member.bio }}</p>
+                  {% endif %}
                   <div class="member-links">
                     {% if member.email %}
                       <a href="mailto:{{ member.email }}" title="Email"><i class="fas fa-envelope"></i></a>
@@ -170,6 +197,9 @@ nav_order: 2
                   <p class="member-role">{{ member.role }}</p>
                   {% if member.research %}
                     <p class="member-research"><small>{{ member.research }}</small></p>
+                  {% endif %}
+                  {% if member.bio %}
+                    <p class="member-bio">{{ member.bio }}</p>
                   {% endif %}
                 </div>
               </div>

@@ -17,26 +17,43 @@ director:
 
 phd_students:
   - name: Atanu Sen Gupta
-    research: Human Factors and Ergonomics, Assistive Technology & Inclusive Design, Machine Learning Applications in Engineering
     image: Atanu.jpg
     email: student@mail.wvu.edu
     website: https://example.com
     linkedin: https://linkedin.com/in/username
     bio: >
-      Atanu Sen Gupta is a PhD student at West Virginia University, 
-      where his research focuses on Human Factors and Ergonomics. 
-      He holds a Bachelor of Science in Mechanical Engineering from 
-      the Bangladesh University of Engineering and Technology (BUET).
+      Atanu Sen Gupta is a PhD student at West Virginia University, where his research focuses on Human Factors and Ergonomics. He holds a Bachelor of Science in Mechanical Engineering from the Bangladesh University of Engineering and Technology (BUET).
 
-  - name: Anindya
-    research: Human Factors and Ergonomics, Assistive Technology & Inclusive Design, Machine Learning Applications in Engineering
+      Atanu brings a robust background in mechanical design, machine learning applications, and assistive technology development to his research. His prior work includes developing a "Speech-to-Braille" interaction device for the visually and hearing impaired—a project that secured a BDT 1,000,000 grant from the Bangladesh ICT Ministry. He has also conducted research on solar energy-based cooling solutions and microstructure analysis of weld joints, the latter of which was supported by a RISE Undergraduate Student Research Grant.
+
+      He is highly proficient in a variety of technical tools, including SolidWorks (holding multiple Professional Advanced certifications), Ansys, COMSOL, and Python. His academic contributions have been presented at several international conferences, including ICME and ICEEICT.
+
+    research:
+      - Human Factors and Ergonomics
+      - Assistive Technology & Inclusive Design
+      - Machine Learning Applications in Engineering
+
+    certifications_awards:
+      - "Certified SolidWorks Professional (plus Advanced modules in Drawing Tools, Weldments, Sheet Metal, and Surfacing)"
+      - "Winner: Mujib 100 Idea Contest (Top 10 Team)"
+      - "Champion: Bikiron Sustainable Energy Innovation Challenge"
+
+  - name: Anindya Sen
     image: Anindya.jpg
     email: student@mail.wvu.edu
     website: https://example.com
     linkedin: https://linkedin.com/in/username
     bio: >
-      Anindya  a PhD student at West Virginia University, 
-      where his research focuses on Human Factors and Ergonomics.
+      Anindya holds a bachelor’s degree in industrial and production engineering (IPE) from Bangladesh University of Engineering and Technology (BUET). After graduating, he worked for two years as a Production Engineer in a Bangladeshi manufacturing company, gaining experience in production systems, process optimization, and industrial operations.
+
+      He is now pursuing a Ph.D. in Industrial Engineering at West Virginia University (WVU), serving as a research assistant in the Ergonomics Laboratory under Dr. Pramiti Sarker. His work focuses on applied ergonomics, human factors, and occupational biomechanics to reduce physical workload, injury risks, and performance issues in workplaces.
+
+      His background in engineering and research supports practical solutions for improving worker safety, comfort, and productivity. He aims to advance ergonomics through contributions to academia, industry, and policy.
+
+    research:
+      - Applied Ergonomics
+      - Human Factors
+      - Occupational Biomechanics
 
 # masters_students:
 #   - name: Student Name
