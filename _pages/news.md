@@ -3,7 +3,7 @@ layout: page
 title: news
 permalink: /news/
 description: Lab and academic updates – publications, presentations, milestones, and opportunities
-nav: true
+nav: false
 nav_order: 8
 ---
 
