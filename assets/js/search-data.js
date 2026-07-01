@@ -37,26 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "Reflections on ergonomics research, human performance, and academic practice",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-curriculum-vitae",
           title: "curriculum vitae",
           description: "Curriculum Vitae of Dr. Pramiti Sarker – Assistant Professor, Industrial &amp; Management Systems Engineering, West Virginia University.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-news",
-          title: "news",
-          description: "Lab and academic updates – publications, presentations, milestones, and opportunities",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
           },
         },{id: "news-dr-sarker-joined-west-virginia-university-as-an-assistant-professor-in-the-department-of-industrial-amp-amp-management-systems-engineering",
           title: 'Dr. Sarker joined West Virginia University as an Assistant Professor in the Department...',
