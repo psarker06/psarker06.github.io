@@ -26,9 +26,6 @@ nav_order: 4
     <div class="research-project">
       <h2 class="project-title">Biomechanical Analysis and Injury Risk Assessment</h2>
       <div class="project-content">
-        <div class="project-image">
-          <img src="{{ '/assets/img/research/biomechanics.jpg' | relative_url }}" alt="Biomechanical Analysis">
-        </div>
         <div class="project-description">
           <p>
             Advanced biomechanical modeling and analysis to identify injury risk factors in occupational settings. 
@@ -46,9 +43,6 @@ nav_order: 4
     <div class="research-project">
       <h2 class="project-title">Cognitive Workload and Human Performance</h2>
       <div class="project-content">
-        <div class="project-image">
-          <img src="{{ '/assets/img/research/cognitive-workload.jpg' | relative_url }}" alt="Cognitive Workload Assessment">
-        </div>
         <div class="project-description">
           <p>
             Investigation of cognitive demands in complex work environments and their impact on human performance 
@@ -66,9 +60,6 @@ nav_order: 4
     <div class="research-project">
       <h2 class="project-title">Ergonomic Intervention Design and Evaluation</h2>
       <div class="project-content">
-        <div class="project-image">
-          <img src="{{ '/assets/img/research/intervention.jpg' | relative_url }}" alt="Ergonomic Intervention">
-        </div>
         <div class="project-description">
           <p>
             Systematic development and evaluation of ergonomic interventions to reduce workplace injury risk 
@@ -86,9 +77,6 @@ nav_order: 4
     <div class="research-project">
       <h2 class="project-title">Wearable Sensors for Workplace Monitoring</h2>
       <div class="project-content">
-        <div class="project-image">
-          <img src="{{ '/assets/img/research/wearables.jpg' | relative_url }}" alt="Wearable Sensors">
-        </div>
         <div class="project-description">
           <p>
             Development and validation of wearable sensor systems for continuous monitoring of worker exposure 
@@ -97,6 +85,109 @@ nav_order: 4
             process sensor data to automatically classify tasks, detect hazardous postures, and quantify 
             cumulative exposure. This research enables scalable, objective ergonomic assessments that support 
             data-driven workplace improvements.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Research Facilities / Lab Equipment -->
+  <section class="research-projects">
+    <h2 class="text-center" style="font-size: 1.75rem; font-weight: 600; margin-bottom: 2rem;">Research Facilities &amp; Equipment</h2>
+
+    <div class="research-project">
+      <h2 class="project-title">Noraxon EMG System</h2>
+      <div class="project-content">
+        <div class="project-image equipment-images">
+          <img src="{{ '/assets/img/research/equipment/noraxon-emg-system.jpg' | relative_url }}" alt="Noraxon EMG System hardware">
+          <img src="{{ '/assets/img/research/equipment/noraxon-emg-sensor.jpg' | relative_url }}" alt="Noraxon EMG sensor placement">
+        </div>
+        <div class="project-description">
+          <p>
+            The Noraxon electromyography system is used to measure muscle activity during physical tasks,
+            occupational movements, and ergonomic assessments. This system allows researchers to evaluate
+            muscle activation patterns, muscle fatigue, physical workload, and the demand placed on specific
+            muscle groups during work-related activities. It is particularly useful for studying tasks involving
+            repetitive motion, awkward posture, manual material handling, wheelchair propulsion, exoskeleton
+            use, and other physically demanding activities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-project">
+      <h2 class="project-title">Vicon Motion Capture System</h2>
+      <div class="project-content">
+        <div class="project-image">
+          <img src="{{ '/assets/img/research/equipment/vicon-motion-capture.jpg' | relative_url }}" alt="Vicon Motion Capture System in use">
+        </div>
+        <div class="project-description">
+          <p>
+            The Vicon motion capture system is used for three-dimensional human movement analysis. It allows
+            precise tracking of body segments, joint angles, posture, movement patterns, and task performance
+            during dynamic activities. This system supports research on gait, reaching, lifting, pushing, pulling,
+            wheelchair mobility, workplace posture, and ergonomic risk assessment. By capturing detailed
+            movement data, the system helps identify biomechanical risk factors associated with musculoskeletal
+            disorders and supports the evaluation of ergonomic interventions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-project">
+      <h2 class="project-title">Bertec Force Plates</h2>
+      <div class="project-content">
+        <div class="project-image">
+          <img src="{{ '/assets/img/research/equipment/bertec-force-plates.jpg' | relative_url }}" alt="Bertec Force Plates in use during a lifting task">
+        </div>
+        <div class="project-description">
+          <p>
+            The lab is equipped with two Bertec force plates for measuring ground reaction forces, center of
+            pressure, balance, postural stability, and force exertion during static and dynamic tasks. These
+            force plates support biomechanical analysis of standing balance, gait, lifting, pushing, pulling,
+            stepping, and other occupational movements. When integrated with motion capture and EMG, the force
+            plates provide a more complete understanding of how external forces, body movement, and muscle
+            activity interact during human performance and ergonomic tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-project">
+      <h2 class="project-title">HUMAC Isokinetic Dynamometer</h2>
+      <div class="project-content">
+        <div class="project-image">
+          <img src="{{ '/assets/img/research/equipment/humac-dynamometer.jpg' | relative_url }}" alt="HUMAC Isokinetic Dynamometer">
+        </div>
+        <div class="project-description">
+          <p>
+            The HUMAC isokinetic dynamometer is used to assess muscle strength, joint torque, range of motion,
+            and functional capacity under controlled testing conditions. It can evaluate strength performance
+            across different joints and movement speeds, making it useful for studying occupational strength
+            demands, rehabilitation-related performance, fatigue development, and physical capacity. This
+            equipment supports objective assessment of upper- and lower-body strength and can be used to compare
+            performance before and after ergonomic or rehabilitation interventions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-project">
+      <h2 class="project-title">NexGen Ergonomics Biometric Systems</h2>
+      <div class="project-content">
+        <div class="project-image equipment-images">
+          <img src="{{ '/assets/img/research/equipment/nexgen-pinch-gauge.jpg' | relative_url }}" alt="NexGen pinch strength gauge">
+          <img src="{{ '/assets/img/research/equipment/nexgen-grip-dynamometer.jpg' | relative_url }}" alt="NexGen grip strength dynamometer">
+        </div>
+        <div class="project-description">
+          <p>
+            The NexGen Ergonomics biometric systems are used to assess hand function, including pinch strength
+            and grip strength. These tools support the evaluation of hand and upper-extremity capacity during
+            ergonomic and occupational tasks. Grip and pinch strength measurements are useful for studying
+            manual task demands, hand-tool use, worker capability, fatigue, functional performance, and risk
+            factors related to upper-extremity musculoskeletal disorders. These systems can also be used to
+            compare strength performance across populations, work conditions, or intervention strategies.
           </p>
         </div>
       </div>

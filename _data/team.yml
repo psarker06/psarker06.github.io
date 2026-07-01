@@ -19,8 +19,6 @@ phd_students:
   - name: Atanu Sen Gupta
     image: Atanu.jpg
     email: student@mail.wvu.edu
-    website: https://example.com
-    linkedin: https://linkedin.com/in/username
     bio: >
       Atanu Sen Gupta is a PhD student at West Virginia University, where his research focuses on Human Factors and Ergonomics. He holds a Bachelor of Science in Mechanical Engineering from the Bangladesh University of Engineering and Technology (BUET).
 
@@ -41,8 +39,6 @@ phd_students:
   - name: Anindya Sen
     image: Anindya.jpg
     email: student@mail.wvu.edu
-    website: https://example.com
-    linkedin: https://linkedin.com/in/username
     bio: >
       Anindya holds a bachelor’s degree in industrial and production engineering (IPE) from Bangladesh University of Engineering and Technology (BUET). After graduating, he worked for two years as a Production Engineer in a Bangladeshi manufacturing company, gaining experience in production systems, process optimization, and industrial operations.
 

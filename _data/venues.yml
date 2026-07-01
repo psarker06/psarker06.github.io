@@ -1,9 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Maps venue abbreviations (as used in _bibliography/papers.bib) to a URL
+# and/or a highlight color for the publications list. Example:
+#
+# "IJIE":
+#   url: https://www.journals.elsevier.com/international-journal-of-industrial-ergonomics
+#   color: "#00369f"
