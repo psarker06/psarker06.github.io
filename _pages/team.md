@@ -80,11 +80,9 @@ nav_order: 2
                     <div class="member-research">
                       <strong>Research Interests:</strong>
                       <ul style="margin-bottom:0;">
-                        {% for line in member.research | split: '\n' %}
-                          {% if line contains '·' %}
+                        {% for line in member.research %}
+                          {% if line != '' %}
                             <li>{{ line | remove: '·' | strip }}</li>
-                          {% elsif line != '' %}
-                            <li>{{ line | strip }}</li>
                           {% endif %}
                         {% endfor %}
                       </ul>

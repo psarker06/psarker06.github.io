@@ -629,12 +629,12 @@ footer.sticky-bottom {
       padding: 0.75rem 1.15rem;
 
       &:hover {
-        color: $black-color;
+        color: #000000;
       }
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: #ffffff;
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -817,7 +817,7 @@ footer.sticky-bottom {
         padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          color: $black-color;
+          color: #000000;
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;

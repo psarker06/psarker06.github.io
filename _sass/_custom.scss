@@ -428,13 +428,15 @@ p, li, span, div {
       .btn-primary {
         background-color: var(--global-theme-color);
         border-color: var(--global-theme-color);
+        color: var(--global-hover-text-color);
         padding: 0.75rem 2rem;
         font-weight: 500;
         transition: all 0.2s ease;
-        
+
         &:hover {
           background-color: var(--global-hover-color);
           border-color: var(--global-hover-color);
+          color: var(--global-hover-text-color);
           transform: translateY(-2px);
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
@@ -487,15 +489,27 @@ p, li, span, div {
     .project-image {
       width: 100%;
       text-align: center;
-      
+
       img {
         max-width: 100%;
         height: auto;
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
+
+      &.equipment-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+
+        img {
+          max-width: 280px;
+          flex: 1 1 240px;
+        }
+      }
     }
-    
+
     .project-description {
       p {
         font-size: 1rem;
