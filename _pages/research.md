@@ -119,8 +119,9 @@ nav_order: 4
     <div class="research-project">
       <h2 class="project-title">Vicon Motion Capture System</h2>
       <div class="project-content">
-        <div class="project-image">
+        <div class="project-image vicon-images">
           <img src="{{ '/assets/img/research/equipment/vicon-motion-capture.jpg' | relative_url }}" alt="Vicon Motion Capture System in use">
+          <img src="{{ '/assets/img/research/equipment/vicon-motion-capture-pose.png' | relative_url }}" alt="Vicon motion capture pose analysis">
         </div>
         <div class="project-description">
           <p>
@@ -155,14 +156,15 @@ nav_order: 4
     </div>
 
     <div class="research-project">
-      <h2 class="project-title">HUMAC Isokinetic Dynamometer</h2>
+      <h2 class="project-title">HUMAC NORM Isokinetic Dynamometer</h2>
       <div class="project-content">
-        <div class="project-image">
+        <div class="project-image humac-images">
           <img src="{{ '/assets/img/research/equipment/humac-dynamometer.jpg' | relative_url }}" alt="HUMAC Isokinetic Dynamometer">
+          <img src="{{ '/assets/img/research/equipment/humac-norm.png' | relative_url }}" alt="HUMAC NORM assessment in progress">
         </div>
         <div class="project-description">
           <p>
-            The HUMAC isokinetic dynamometer is used to assess muscle strength, joint torque, range of motion,
+            The HUMAC NORM isokinetic dynamometer is used to assess muscle strength, joint torque, range of motion,
             and functional capacity under controlled testing conditions. It can evaluate strength performance
             across different joints and movement speeds, making it useful for studying occupational strength
             demands, rehabilitation-related performance, fatigue development, and physical capacity. This

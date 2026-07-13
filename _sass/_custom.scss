@@ -508,6 +508,30 @@ p, li, span, div {
           flex: 1 1 240px;
         }
       }
+
+      &.humac-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+          max-width: 520px;
+          width: 100%;
+        }
+      }
+
+      &.vicon-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+          max-width: 520px;
+          width: 100%;
+        }
+      }
     }
 
     .project-description {
