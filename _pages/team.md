@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /team/
-title: Team
+title: team
 description: People in the Ergonomics Laboratory
 nav: true
 nav_order: 2
