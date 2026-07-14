@@ -10,14 +10,14 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-team",
-          title: "Team",
+          title: "team",
           description: "People in the Ergonomics Laboratory",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
+          title: "teaching",
           description: "Courses, instruction, and mentorship",
           section: "Navigation",
           handler: () => {
@@ -31,14 +31,14 @@ ninja.data = [{
             window.location.href = "/research/";
           },
         },{id: "nav-publications",
-          title: "Publications",
+          title: "publications",
           description: "Peer-reviewed scholarly publications",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-curriculum-vitae",
-          title: "Curriculum Vitae",
+          title: "curriculum vitae",
           description: "Curriculum Vitae of Dr. Pramiti Sarker, Ph.D., AEP - Assistant Professor, Industrial and Management Systems Engineering, West Virginia University.",
           section: "Navigation",
           handler: () => {
