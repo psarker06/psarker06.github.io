@@ -10,15 +10,15 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-team",
-          title: "team",
-          description: "Meet our research team",
+          title: "Team",
+          description: "People in the Ergonomics Laboratory",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Courses and teaching materials",
+          title: "Teaching",
+          description: "Courses, instruction, and mentorship",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -31,15 +31,15 @@ ninja.data = [{
             window.location.href = "/research/";
           },
         },{id: "nav-publications",
-          title: "publications",
-          description: "",
+          title: "Publications",
+          description: "Peer-reviewed scholarly publications",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-curriculum-vitae",
-          title: "curriculum vitae",
-          description: "Curriculum Vitae of Dr. Pramiti Sarker – Assistant Professor, Industrial &amp; Management Systems Engineering, West Virginia University.",
+          title: "Curriculum Vitae",
+          description: "Curriculum Vitae of Dr. Pramiti Sarker, Ph.D., AEP - Assistant Professor, Industrial and Management Systems Engineering, West Virginia University.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -129,13 +129,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
