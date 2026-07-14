@@ -2,7 +2,7 @@
 layout: about
 title: Pramiti Sarker
 permalink: /
-subtitle: Assistant Professor – Industrial & Management Systems Engineering, West Virginia University
+subtitle: Assistant Professor - Department of Industrial and Management Systems Engineering, West Virginia University
 nav: false
 nav_order: 1
 
@@ -11,10 +11,10 @@ profile:
   image: profile.jpg # place at assets/img/profile.jpg
   image_circular: true
   more_info: >
+    <p>ESB 347</p>
     <p>Department of Industrial & Management Systems Engineering</p>
     <p>West Virginia University</p>
     <p><a href="mailto:ps0035@mail.wvu.edu">ps0035@mail.wvu.edu</a></p>
-    <p><a href="mailto:sarkerpramiti@gmail.com">sarkerpramiti@gmail.com</a></p>
 
 selected_papers: true
 social: true
@@ -30,34 +30,34 @@ latest_posts:
   limit: 3
 ---
 
-**Dr. Pramiti Sarker** is an Assistant Professor in the Department of Industrial and Management Systems Engineering at West Virginia University. Her research focuses on **occupational ergonomics**—maximizing human performance while minimizing physical and cognitive workload to reduce the risk of neuromusculoskeletal disorders. Dr. Sarker aims to enhance worker well-being, job quality, and sustainable careers by analyzing task demands, identifying workload strain sources, and designing evidence-based ergonomic interventions using emerging technologies and advanced analytical methods.
+**Dr. Pramiti Sarker, Ph.D., AEP,** is an Assistant Professor in the Department of Industrial and Management Systems Engineering at West Virginia University. Her research advances occupational ergonomics to improve employee well-being, optimize performance, and mitigate physical and mental workload in complex work environments. Excessive workload can contribute to neuromusculoskeletal disorders, reduce worker performance, and increase employer costs. To address these challenges, Dr. Sarker identifies sources of workload strain and develops, evaluates, and implements evidence-based ergonomic solutions that improve job quality, support long-term career sustainability, and enhance workplace safety.
 
 ---
 
-#### **Research Focus**
+#### **Research Interests**
 
 Dr. Sarker's research centers on interdisciplinary approaches in:
-- **Occupational Ergonomics**: Injury risk identification and mitigation strategies  
+- **Occupational Ergonomics**: Identification and mitigation of injury risk factors in real-world tasks
 - **Workload Assessment**: Multi-modal evaluation of physical and cognitive demands
-- **Biomechanical Analysis**: Injury risk identification and mitigation strategies  
-- **Ergonomic Interventions**: Evidence-based solutions leveraging wearable sensors, gait and data analysis
-- **Human-Centered Systems**: Integrating human factors into workplace settings and optimizatiing design for enhanced human performance
+- **Biomechanical Analysis**: Quantifying movement, posture, and force-related exposure
+- **Ergonomic Intervention Design**: Developing and testing evidence-based solutions for safer work
+- **Human-Centered Systems Engineering**: Integrating human factors into workplace and process design
 
 ---
 
 #### **Education**
 
-- **Ph.D.**, Industrial Engineering, Iowa State University, 2022
-- **M.S.**, Industrial Engineering, Bangladesh University of Engineering and Technology (BUET), 2017  
-- **B.S.**, Industrial Engineering, Bangladesh University of Engineering and Technology (BUET), 2015
+- **Ph.D. in Industrial Engineering**, Department of Industrial and Manufacturing Systems Engineering, Ames, Iowa, USA, 2022
+- **M.S. in Industrial Engineering**, Department of Industrial and Production Engineering, Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh, 2017
+- **B.S. in Industrial Engineering**, Department of Industrial and Production Engineering, Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh, 2015
 
 ---
 
 #### **Professional Experience**
 
-- **Assistant Professor**, West Virginia University (Current)
+- **Assistant Professor**, Department of Industrial and Management Systems Engineering, West Virginia University
 - **Visiting Assistant Professor**, Edwardson School of Industrial Engineering, Purdue University
 - **Lecturer**, Bangladesh University of Engineering and Technology (BUET)
-- **Research Intern**, Mayo Clinic
+- **Intern**, Mayo Clinic
 
 ---

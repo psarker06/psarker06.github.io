@@ -1,46 +1,37 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Courses and teaching materials
+title: Teaching
+description: Courses, instruction, and mentorship
 nav: true
 nav_order: 3
 ---
 
-## Spring 2026
+My teaching integrates engineering fundamentals, human factors, and applied problem solving. I emphasize evidence-based
+analysis, practical design methods, and clear communication so that students can translate classroom learning to real
+workplace systems.
 
+## Current Course
+
+### Spring 2026
 **IENG 564 - Industrial Ergonomics**  
 *West Virginia University*
 
-This course focuses on the Physical Ergonomic of industrial processes/methods and is primarily designed to provide students with a technical foundation to analyze, design and develop human-technological system with a primary emphasis on the humans.
+This course provides a technical foundation for analyzing and designing human-centered industrial systems. Students learn
+to evaluate physical workload, identify ergonomic risk factors, and develop interventions that improve safety, health,
+and performance.
 
-**Course Topics:**
+**Key topics include:**
 
-- **INTRODUCTION TO WORK DESIGN**
-  - Technological Society and Role of Industrial Ergonomics
-  - Human Anatomy
-  - Biomechanics
-  - Work Physiology
-  - Anthropometry
+- Work design and the role of industrial ergonomics  
+- Human anatomy, biomechanics, and work physiology  
+- Anthropometry and workstation design  
+- Manual material handling and hand-tool ergonomics  
+- Musculoskeletal disorder risk assessment and prevention  
+- Work measurement methods (time study, predetermined time systems, standard data)  
+- Ergonomics program implementation and training strategies
 
-- **THE DESIGN PROCESS**
-  - Engineering Design
-  - Operations Analysis
-  - Occurrence Sampling
+## Student Engagement and Mentorship
 
-- **ERGONOMIC GUIDELINES**
-  - Macro Ergonomics
-  - Organization of Workstations
-  - Workstation Design
-  - Musculoskeletal Disorders
-  - Manual Handling and Handtools
-  - Error reduction and safety
-
-- **WORK MEASUREMENT**
-  - Time Study
-  - Predetermined Time Systems
-  - Standard Data
-
-- **IMPLEMENTING THE DESIGN**
-  - Job Instruction/Training
-  - Managing an Ergonomics Program
+I encourage students to connect coursework with current occupational ergonomics challenges in industry and healthcare.
+Interested students may contact me regarding research opportunities in human factors, biomechanics, and workplace safety.

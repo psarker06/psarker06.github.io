@@ -1,18 +1,29 @@
 ---
 layout: page
 permalink: /team/
-title: team
-description: Meet our research team
+title: Team
+description: People in the Ergonomics Laboratory
 nav: true
 nav_order: 2
 ---
 
 <div class="team-page">
 
+  <section class="team-section">
+    <p>
+      The Ergonomics Laboratory at West Virginia University brings together researchers working at the intersection of
+      occupational ergonomics, human factors, and biomechanics. Our team develops evidence-based methods and interventions
+      to improve worker safety, health, and performance across diverse occupational settings.
+    </p>
+    <p>
+      We value rigorous scholarship, interdisciplinary collaboration, and strong mentorship of students at all levels.
+    </p>
+  </section>
+
   <!-- Director Section -->
   {% if site.data.team.director %}
     <section class="team-section">
-      <h2 class="section-title">DIRECTOR</h2>
+      <h2 class="section-title">Director</h2>
       {% for member in site.data.team.director %}
         <div class="director-profile">
           <div class="row">
@@ -53,7 +64,7 @@ nav_order: 2
   <!-- Ph.D. Students Section -->
   {% if site.data.team.phd_students %}
     <section class="team-section">
-      <h2 class="section-title">PH.D. STUDENTS</h2>
+      <h2 class="section-title">Ph.D. Students</h2>
       <div class="row team-grid">
         {% for member in site.data.team.phd_students %}
           <div class="col-md-6 mb-4">
@@ -124,7 +135,7 @@ nav_order: 2
   <!-- Master's Students Section -->
   {% if site.data.team.masters_students %}
     <section class="team-section">
-      <h2 class="section-title">MASTER'S STUDENTS</h2>
+      <h2 class="section-title">Master's Students</h2>
       <div class="row team-grid">
         {% for member in site.data.team.masters_students %}
           <div class="col-md-6 mb-4">
@@ -176,7 +187,7 @@ nav_order: 2
   <!-- Undergraduate Students Section -->
   {% if site.data.team.undergraduate_students %}
     <section class="team-section">
-      <h2 class="section-title">UNDERGRADUATE RESEARCH ASSISTANTS</h2>
+      <h2 class="section-title">Undergraduate Research Assistants</h2>
       <div class="row team-grid">
         {% for member in site.data.team.undergraduate_students %}
           <div class="col-md-6 mb-4">
@@ -211,7 +222,7 @@ nav_order: 2
   <!-- Alumni Section -->
   {% if site.data.team.alumni %}
     <section class="team-section">
-      <h2 class="section-title">ALUMNI</h2>
+      <h2 class="section-title">Alumni</h2>
       <div class="alumni-list">
         {% for member in site.data.team.alumni %}
           <div class="alumni-item">
@@ -243,20 +254,20 @@ nav_order: 2
 
   <!-- Join Us Section -->
   <section class="team-section join-section">
-    <h2 class="section-title">JOIN US</h2>
+    <h2 class="section-title">Join the Team</h2>
     <div class="join-content">
       <p>
-        We are always looking for motivated students interested in occupational ergonomics, 
-        human factors, and biomechanics research. If you are passionate about improving 
-        worker well-being and workplace safety, please reach out!
+        We welcome motivated students interested in occupational ergonomics, human factors, and biomechanics.
+        Team members contribute to ongoing projects, gain hands-on research experience, and collaborate on
+        publications and conference presentations.
       </p>
       <p>
-        <strong>Prospective Ph.D. Students:</strong> Please email Dr. Sarker with your CV, 
-        research interests, and transcripts.
+        <strong>Prospective Ph.D. students:</strong> Please email Dr. Sarker with your CV, a brief statement
+        of research interests, and relevant transcripts.
       </p>
       <p>
-        <strong>WVU Students:</strong> Undergraduate and graduate students interested in 
-        research assistantships are encouraged to contact Dr. Sarker.
+        <strong>WVU students:</strong> Undergraduate and graduate students interested in research assistantships
+        are encouraged to reach out by email.
       </p>
       <div class="text-center mt-4">
         <a href="mailto:ps0035@mail.wvu.edu" class="btn btn-primary">Contact Dr. Sarker</a>
